@@ -8,7 +8,7 @@ string generatePassword(int length);
 string removeWhitespace(string str);
 
 int main() {
-    srand ( time(NULL) );
+    srand ( time(nullptr) );
 
     cout << generatePassword(12) << endl;
     return 0;
